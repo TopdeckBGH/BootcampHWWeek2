@@ -4,6 +4,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.asserts.Assertion;
 import util.DriverFactory;
 
 import java.pages.HomePage;
@@ -38,6 +40,34 @@ public class HomeWorkSteps {
 
     @When("\"Bordo\" onay kutucuğuna tıklanır")
     public void maroonBox(){ homeWorkPage.colourMaroonBox();}
+
+    @When("\"Sırala\" butonuna tıklanır")
+    public void sortBox() { homeWorkPage.clickSortBox();}
+
+    @When("\"En düşük fiyat\" seçilir")
+    public void cheapestBox() { homeWorkPage.clickCheapest();}
+
+    @Then("\"Bordo\" renkli \"M\" bedenli \"Polo Yaka Tişört\"lerin en ucuzdan en pahalıya doğru sıralandığı kontrol edilir")
+    public void cheapestToMostExpensive(){
+        homeWorkPage.checkMSelection();
+        homeWorkPage.checkMaroonSelection();
+        homeWorkPage.checkCheapestToMostExpensive();
+    }
+
+    @When("1. sıradaki ürün seçilir")
+    public void cheapestProduct(){ homeWorkPage.clickCheapestProduct();}
+
+    @When("\"Paylaş\" butonuna tıklanır")
+    public void shareButton(){ homeWorkPage.clickShareButton();}
+
+    @When("\"Kopyala\" butonuna tıklanır")
+    public void copyButton(){ homeWorkPage.clickCopyButton();}
+
+    @Then("Kopyalanan link ile sayfanın linki aynı mı kontrol edilir")
+    public void currentURLTest() {
+        Assert.assertEquals(homeWorkPage.currentURL, homeWorkPage.pageLink);
+    }
+
 
 
 

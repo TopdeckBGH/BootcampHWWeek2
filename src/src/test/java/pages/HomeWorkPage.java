@@ -13,10 +13,22 @@ public class HomeWorkPage {
     By sizeBox = By.cssSelector(".collapsible-filter-container__content-area--size-filter .lcw-checkbox__checkbox");
     By colour = By.cssSelector("placeholder=\"Renk Ara\"");
     By colourBox = By.cssSelector(".collapsible-filter-container__content-area--color-filter .color-filter-option");
+    By sortBox = By.cssSelector("[data-name=\"Path 2118\"]");
+    By cheapest = By.cssSelector(".dropdown-button__option:nth-child(2)");
+    By mSelection = By.cssSelector(".lcw-checkbox__checkbox--checked");
+    By maroonSelection = By.cssSelector("src=\"http://akstatic.lcwaikiki.com/Resource/Images/icon/bordo.png\"");
+    By productPrice = By.cssSelector(".product-price__main-price-container");
+    By productCheapest = By.cssSelector(".product-price__main-price-container:nth-child(1)");
+    By shareButton = By.cssSelector(".col-xs-3 .interaction-share");
+    By copyLinkButton = By.cssSelector(".new-share");
 
 
     WebDriver driver;
     ElementHelper helper;
+
+    //Sayfanın anlık URL'idir
+    public String currentURL = driver.getCurrentUrl();
+    public String pageLink = helper.getAttribute((By.cssSelector(".new-share[value]")), "value");
 
     public HomeWorkPage(WebDriver driver) {
         this.driver = driver;
@@ -32,7 +44,16 @@ public class HomeWorkPage {
     public void sizeFilter(){ helper.sendKey(size, "M");}
     public void sizeMBox(){ helper.click(sizeBox);}
     public void colourFilter(){ helper.sendKey(colour, "Bordo");}
-    public void colourMaroonBox() { helper.click(colourBox);}
+    public void colourMaroonBox(){ helper.click(colourBox);}
+    public void clickSortBox(){ helper.click(sortBox);}
+    public void clickCheapest(){ helper.click(cheapest);}
+    public void checkMSelection(){ helper.checkElementVisible(mSelection);}
+    public void checkMaroonSelection(){ helper.checkElementVisible(maroonSelection);}
+    public void checkCheapestToMostExpensive(){ helper.checkElementVisible(productPrice);}
+    public void clickCheapestProduct(){ helper.click(productCheapest);}
+    public void clickShareButton(){ helper.click(shareButton);}
+    public void clickCopyButton(){ helper.click(copyLinkButton);}
+
 
 
 }
