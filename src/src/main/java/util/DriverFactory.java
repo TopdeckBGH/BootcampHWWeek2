@@ -14,7 +14,7 @@ public class DriverFactory {
     static Properties properties;
 
     public static WebDriver initialize_Driver(String browser){
-        properties = ConfigReader.getProperties();
+       // properties = ConfigReader.getProperties();
         if (browser.equals("Chrome")) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
@@ -25,13 +25,12 @@ public class DriverFactory {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
         }
-        String url = properties.getProperty("url");
-        int impWait = Integer.parseInt(properties.getProperty("implicityWait"));
-        int pageWait = Integer.parseInt(properties.getProperty("pageLoadTimeout"));
-        driver.get(url);
+        //String url = properties.getProperty("url");
+        driver.get("https://www.lcwaikiki.com/tr-TR/TR");
+
         driver.manage().window().maximize();
-        driver.manage().timeouts().pageLoadTimeout(impWait, TimeUnit.SECONDS);
-        driver.manage().timeouts().implicitlyWait(pageWait, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(5000, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
         return getDriver();
     }
 

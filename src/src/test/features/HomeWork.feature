@@ -1,6 +1,7 @@
-Feature: Homework
-  Scenario: Homework Case - 1
-    Given Uygulama acilir
+Feature: HomeWork Page
+
+  Scenario: HomeWork Page Case 1
+    Given Anasayfa kontrol edilir
     When "ERKEK" menüsünün üzerine gelinir
     When "Polo Yaka Tişört" butonuna tıklanır
     Then "Erkek Polo Yaka Tişört" sayfasının geldiği kontrol edilir

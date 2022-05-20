@@ -1,21 +1,19 @@
-package java.stepDefinitions;
+package stepDefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.asserts.Assertion;
 import util.DriverFactory;
 
-import java.pages.HomePage;
-import java.pages.HomeWorkPage;
+import pages.HomeWorkPage;
 
 public class HomeWorkSteps {
     WebDriver driver = DriverFactory.getDriver();
     HomeWorkPage homeWorkPage = new HomeWorkPage(driver);
 
-    @Given("Uygulama acilir")
+    @Given("Anasayfa kontrol edilir")
     public void uygulamaAcilir() {
         homeWorkPage.checkLogo();
     }

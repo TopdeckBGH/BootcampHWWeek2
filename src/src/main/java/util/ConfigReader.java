@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
-
+/*
     private static Properties properties;
 
 
@@ -29,6 +29,6 @@ public class ConfigReader {
     public static Properties getProperties() {
         return properties;
     }
-
+*/
 
 }
