@@ -63,14 +63,9 @@ public class HomeWorkSteps {
     @When("\"Kopyala\" butonuna tıklanır")
     public void copyButton(){ homeWorkPage.clickCopyButton();}
 
+    //Kopyalanan URL'inin, sayfanın URL'ine eşit olup olmadığının kontrol edilidği metottur.
     @Then("Kopyalanan link ile sayfanın linki aynı mı kontrol edilir")
     public void currentURLTest() {
         Assert.assertEquals(homeWorkPage.currentURL, homeWorkPage.pageLink);
     }
-
-
-
-
-
-
 }

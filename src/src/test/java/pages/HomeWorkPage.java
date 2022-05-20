@@ -28,6 +28,7 @@ public class HomeWorkPage {
 
     //Sayfanın anlık URL'idir
     public String currentURL = driver.getCurrentUrl();
+    //İşlemin sonunda bulunan URL'dir.
     public String pageLink = helper.getAttribute((By.cssSelector(".new-share[value]")), "value");
 
     public HomeWorkPage(WebDriver driver) {
@@ -35,9 +36,7 @@ public class HomeWorkPage {
         this.helper = new ElementHelper(driver);
     }
 
-    public void checkLogo() {
-        helper.checkElementVisible(logo);
-    }
+    public void checkLogo() { helper.checkElementVisible(logo);}
     public void hoverMens() { helper.hoverToElement(mens);}
     public void hoverPoloShirt(){ helper.hoverToElement(poloShirt);}
     public void checkPoloShirt(){ helper.checkElementVisible(poloShirtControl);}
