@@ -1,10 +1,11 @@
-package stepDefinitions;
+package java.stepDefinitions;
 
-import pages.HomePage;
 import util.DriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
+
+import java.pages.HomePage;
 
 public class HomePageSteps {
 

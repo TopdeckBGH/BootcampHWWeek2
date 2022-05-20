@@ -45,9 +45,7 @@ public class ElementHelper {
     /**
      * @param key
      */
-    public void click(By key) {
-        findElement(key).click();
-    }
+    public void click(By key) { findElement(key).click(); }
 
     /**
      * @param key
@@ -183,5 +181,14 @@ public class ElementHelper {
                 + "window.scrollBy(0, elementTop-(viewPortHeight/2));";
         ((JavascriptExecutor) driver).executeScript(scrollElementIntoMiddle, element);
 
+    }
+
+    /**
+     * İmleci, istenilen Element'in üzerine getirir (Hover).
+     * @param key Girilen Element'in ayırt eidici özelliğidir.
+     */
+    public void hoverToElement(By key){
+        WebElement element = presenceElement(key);
+        action.moveToElement(element).perform();
     }
 }

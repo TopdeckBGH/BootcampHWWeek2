@@ -1,9 +1,10 @@
-package stepDefinitions;
+package java.stepDefinitions;
 
-import pages.SearchPage;
-import util.DriverFactory;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import util.DriverFactory;
+
+import java.pages.SearchPage;
 
 public class SearchPageSteps {
 
