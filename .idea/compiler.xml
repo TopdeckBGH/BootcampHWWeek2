@@ -7,12 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TopdeckBGH" />
+        <module name="Week2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="SeleniumGiris" target="1.5" />
       <module name="TopdeckBGH" target="8" />
+      <module name="Week2" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

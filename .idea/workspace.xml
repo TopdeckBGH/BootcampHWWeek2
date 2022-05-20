@@ -4,13 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ed85faa-9819-4f53-840e-5e1ce8588e72" name="Changes" comment="Selenium.Giris Updated">
-      <change afterPath="$PROJECT_DIR$/untitled/pom.xml" afterDir="false" />
+    <list default="true" id="3ed85faa-9819-4f53-840e-5e1ce8588e72" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/io_cucumber_java.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/io_cucumber_testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/io_github_bonigarcia_webdrivermanager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/seleniumhq_selenium_java.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/tech_grasshopper_extentreports_cucumber7_adapter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopdeckBGH/src/main/java/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/Week2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/main/java/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,90 +59,28 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TopdeckBGH" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Sepete Urun Ekleme">
-    <configuration name="Scenario: Home Page Case 1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/src/test/java/features/HomePage.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="SeleniumGiris" />
-      <option name="NAME_FILTER" value="^Home Page Case 1$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Home Page Case 1$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Home Page Case 1" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Search Page Case 1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/src/test/java/features/SearchPage.feature" />
-      <option name="GLUE" value="util stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="SeleniumGiris" />
-      <option name="NAME_FILTER" value="^Search Page Case 1$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Search Page Case 1$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Search Page Case 1" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Sepete Urun Ekleme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/src/test/java/features/CartPage.feature" />
-      <option name="GLUE" value="util stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="SeleniumGiris" />
-      <option name="NAME_FILTER" value="^Sepete Urun Ekleme$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Sepete Urun Ekleme$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Sepete Urun Ekleme" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Sepetten urun cikarma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/src/test/java/features/CartPage.feature" />
-      <option name="GLUE" value="util stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="SeleniumGiris" />
-      <option name="NAME_FILTER" value="^Sepetten urun cikarma$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Sepetten urun cikarma$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Sepetten urun cikarma" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sanveru\Desktop\homework-2-TopdeckBGH" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="Week2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,10 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Sepete Urun Ekleme" />
-        <item itemvalue="Cucumber Java.Scenario: Home Page Case 1" />
-        <item itemvalue="Cucumber Java.Scenario: Search Page Case 1" />
-        <item itemvalue="Cucumber Java.Scenario: Sepetten urun cikarma" />
+        <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -184,11 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1652696622113</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Week 2 Updated">
+      <created>1653041676631</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653041676631</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
-  </component>
-  <component name="UnloadedModulesList">
-    <module name="homework-2-TopdeckBGH" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -206,7 +165,8 @@
     <MESSAGE value="Selenium.Giris Added" />
     <MESSAGE value="Selenium.Giris Addedasd" />
     <MESSAGE value="Selenium.Giris Updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium.Giris Updated" />
+    <MESSAGE value="Week 2 Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 2 Updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
