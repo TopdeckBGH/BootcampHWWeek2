@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ed85faa-9819-4f53-840e-5e1ce8588e72" name="Changes" comment="Week 2 Updated" />
+    <list default="true" id="3ed85faa-9819-4f53-840e-5e1ce8588e72" name="Changes" comment="Week 2 Updated2">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/main/java/util/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/main/java/util/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/main/java/util/ElementHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/main/java/util/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/src/main/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/src/main/java/testRunners/Runner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +47,9 @@
     </option>
   </component>
   <component name="ProjectId" id="29EtjzbvyxEdWW9GMNNgJJHXEWI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,12 +70,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sanveru\Desktop\homework2-hw\Week2\src" />
       <recent name="C:\Users\sanveru\Desktop\homework-2-TopdeckBGH" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <option name="MAIN_CLASS_NAME" value="testRunners.Runner" />
       <module name="Week2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653041676631</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Week 2 Updated2">
+      <created>1653043915930</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653043915930</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,7 +159,8 @@
     <MESSAGE value="Selenium.Giris Addedasd" />
     <MESSAGE value="Selenium.Giris Updated" />
     <MESSAGE value="Week 2 Updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 2 Updated" />
+    <MESSAGE value="Week 2 Updated2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 2 Updated2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
